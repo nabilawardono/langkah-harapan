@@ -1,52 +1,36 @@
 <!doctype html>
 <html lang="id">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#faf8f4">
-  <meta name="description" content="Langkah Harapan — Bantuan Lanjut Sekolah. Pendampingan pendidikan untuk anak-anak yang menghadapi hambatan bersekolah.">
-  <title>Langkah Harapan | Bantuan Lanjut Sekolah</title>
-  <style>
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body { margin: 0; background: #faf8f4; }
-    main { width: 100%; margin: 0 auto; }
-    .page { position: relative; width: 100%; margin: 0; padding: 0; line-height: 0; }
-    .page img { display: block; width: 100%; height: auto; }
-    /* Clickable area sits exactly over the "Read More" button printed in the PDF. */
-    .read-more { position: absolute; left: 8%; top: 73.4%; width: 18.3%; height: 8.1%; display: block; }
-    .read-more:focus-visible { outline: 4px solid #52b2bd; outline-offset: 3px; }
-    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
-    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#faf8f4">
+<meta name="description" content="Langkah Harapan — Bantuan Lanjut Sekolah. Proposal program pendidikan Kelompok Asuh Pelita Hati.">
+<title>Langkah Harapan | Bantuan Lanjut Sekolah</title>
+<style>
+:root{color-scheme:light;scroll-behavior:smooth}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#faf8f4}
+main{width:100%;max-width:1920px;margin:0 auto}
+section{position:relative;margin:0;padding:0;line-height:0}
+section img{width:100%;height:auto;display:block}
+#read-more{position:absolute;left:7.5%;top:71.5%;width:19%;height:9%;display:block;z-index:2;cursor:pointer}
+#read-more:focus-visible{outline:4px solid #52b3bc;outline-offset:3px}
+.sr-only{position:absolute;clip:rect(0,0,0,0);width:1px;height:1px;overflow:hidden;white-space:nowrap}
+@media (prefers-reduced-motion:reduce){:root{scroll-behavior:auto}}
+</style>
 </head>
 <body>
-  <main aria-label="Proposal fundraising Langkah Harapan">
-    <section class="page" aria-label="Halaman 1: Sampul">
-      <img src="assets/halaman-01.webp" width="2088" height="1175" alt="Langkah Harapan: Bantuan Lanjut Sekolah. Bantu kami untuk membuka kembali pintu pendidikan yang tidak seharusnya tertutup." fetchpriority="high">
-      <a class="read-more" href="#latar-belakang" aria-label="Read More — menuju Latar Belakang"><span class="sr-only">Read More</span></a>
-    </section>
-    <section class="page" id="latar-belakang" aria-label="Halaman 2: Latar Belakang">
-      <img src="assets/halaman-02.webp" width="2088" height="1175" loading="lazy" alt="Latar Belakang: 103 anak terdaftar di Ruang Belajar Pelita Hati, dengan tantangan pendidikan berupa usia, administrasi dan ekonomi.">
-    </section>
-    <section class="page" aria-label="Halaman 3: Kondisi Sosial Terkini">
-      <img src="assets/halaman-03.webp" width="2088" height="1175" loading="lazy" alt="Kondisi sosial terkini anak-anak di TPS Pertanian Raya dan tantangan mereka mengakses sekolah formal.">
-    </section>
-    <section class="page" aria-label="Halaman 4: Tujuan Program">
-      <img src="assets/halaman-04.webp" width="2088" height="1175" loading="lazy" alt="Tujuan program: pendekatan yang berfokus pada anak dan dukungan berkelanjutan agar anak menyelesaikan pendidikan.">
-    </section>
-    <section class="page" aria-label="Halaman 5: Penerima Manfaat">
-      <img src="assets/halaman-05.webp" width="2088" height="1175" loading="lazy" alt="Penerima manfaat: anak-anak usia sekolah di TPS yang menghadapi keterbatasan dana dan tantangan usia.">
-    </section>
-    <section class="page" aria-label="Halaman 6: Metode Implementasi">
-      <img src="assets/halaman-06.webp" width="2088" height="1175" loading="lazy" alt="Metode implementasi: survei, rencana pendidikan, MoU dan pendaftaran sekolah, serta evaluasi.">
-    </section>
-    <section class="page" aria-label="Halaman 7: Sumber Dana">
-      <img src="assets/halaman-07.webp" width="2088" height="1175" loading="lazy" alt="Sumber dana: donasi individual, program CSR dan sponsorship orang tua asuh.">
-    </section>
-    <section class="page" aria-label="Halaman 8: Kontak & Informasi Donasi">
-      <img src="assets/halaman-08.webp" width="2088" height="1175" loading="lazy" alt="Kontak dan informasi donasi Langkah Harapan, termasuk nomor telepon dan email pengelola.">
-    </section>
-  </main>
+<main aria-label="Proposal Langkah Harapan">
+<section id="cover" aria-label="Cover Bantuan Lanjut Sekolah">
+<img src="assets/v2/page-01.webp" alt="Cover Langkah Harapan: Bantuan Lanjut Sekolah. Bantu kami untuk membuka kembali pintu pendidikan yang tidak seharusnya tertutup." width="2448" height="1377" fetchpriority="high">
+<a id="read-more" href="#latar-belakang" aria-label="Read More: lanjut ke Latar Belakang"><span class="sr-only">Read More</span></a>
+</section>
+<section id="latar-belakang" aria-label="Latar Belakang"><img src="assets/v2/page-02.webp" alt="Latar Belakang — 103 anak terdaftar di Ruang Belajar Pelita Hati, dengan hambatan pendidikan dari faktor usia, administrasi, dan ekonomi." width="2448" height="1377" loading="lazy"></section>
+<section id="kondisi-sosial" aria-label="Kondisi Sosial Terkini"><img src="assets/v2/page-03.webp" alt="Kondisi Sosial Terkini, statistik pendidikan anak TPS dan tujuh anak yang belum punya akses sekolah formal." width="2448" height="1377" loading="lazy"></section>
+<section id="tujuan-program" aria-label="Tujuan Program"><img src="assets/v2/page-04.webp" alt="Tujuan program: pendekatan berpusat pada anak dan dukungan berkelanjutan untuk menuntaskan pendidikan." width="2448" height="1377" loading="lazy"></section>
+<section id="penerima-manfaat" aria-label="Penerima Manfaat"><img src="assets/v2/page-05.webp" alt="Penerima manfaat: anak-anak usia sekolah di TPS dengan keterbatasan dana dan tantangan usia." width="2448" height="1377" loading="lazy"></section>
+<section id="metode-implementasi" aria-label="Metode Implementasi"><img src="assets/v2/page-06.webp" alt="Metode implementasi: survei, rencana pendidikan, MoU dan pendaftaran sekolah, serta evaluasi berkala." width="2448" height="1377" loading="lazy"></section>
+<section id="kontak" aria-label="Kontak dan Informasi Donasi"><img src="assets/v2/page-07.webp" alt="Kontak dan informasi donasi Langkah Harapan, disertai foto kelompok anak." width="2448" height="1377" loading="lazy"></section>
+</main>
 </body>
 </html>
